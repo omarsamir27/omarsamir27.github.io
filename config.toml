@@ -1,0 +1,23 @@
+baseURL = 'https://omarsamir27.github.io'
+languageCode = 'en-us'
+title = "Samir's Blog"
+theme = "m10c"
+publishDir = "docs"
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+[params]
+author = "Omar Samir"
